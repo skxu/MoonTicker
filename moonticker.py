@@ -465,7 +465,7 @@ class MoonTickerApp(rumps.App):
 
     @rumps.clicked("About")
     def show_about_window(self, sender):
-        rumps.alert("MoonTicker", "Source code: https://github.com/skxu/ \n\nBuy me a boba:\n\nETH:\n0x87e55aEaeF9D884673f50Dc673adD96Ca7e5BbF9\n\nBTC:\n377P7NPChAffZN6jMLanogesAsR3d7STxA")
+        rumps.Window("MoonTicker", default_text="Source code: https://github.com/skxu/ \n\nBuy me a boba:\n\nETH:\n0x87e55aEaeF9D884673f50Dc673adD96Ca7e5BbF9\n\nBTC:\n377P7NPChAffZN6jMLanogesAsR3d7STxA").run()
 
     def get_progress(self):
         li = ["|", "/", "-", "\\"]
