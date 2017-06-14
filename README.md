@@ -5,6 +5,10 @@ Alternative macOS statusbar ticker for cryptocurrencies like Ethereum, Bitcoin
 ## Latest Releases
 Find the latest releases [here](https://github.com/skxu/MoonTicker/releases)  
 
+## Screenshots
+![screenshot1](http://i.imgur.com/VDuXsGm.png)
+![screenshot2](http://i.imgur.com/Isl4Akb.png)
+
 ## Make from source
 
   - install requirements: ```pip install -r requirements.txt```
@@ -18,3 +22,4 @@ Find the latest releases [here](https://github.com/skxu/MoonTicker/releases)
 ### Buy me a Boba
 ETH: 0x87e55aEaeF9D884673f50Dc673adD96Ca7e5BbF9  
 BTC: 377P7NPChAffZN6jMLanogesAsR3d7STxA
+
